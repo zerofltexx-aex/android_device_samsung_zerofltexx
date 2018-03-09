@@ -195,6 +195,9 @@
 		<ctl name="ISRC4INT2 Input" value="AIF4RX2" />
 		<ctl name="DSP5 Aux 2" value="ISRC4INT1" />
 		<ctl name="DSP5 Aux 3" value="ISRC4INT2" />
+        <ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+		<ctl name="HPOUT3R Input 1" value="AIF1RX2" />
+        <ctl name="RCV Switch" value="1" />
 		<ctl name="VI SENSING Switch" value="1" />
 		<ctl name="SPK Switch" value="1" />
 	</path>
@@ -2545,6 +2548,8 @@
 	<path name="gain-media-speaker">
 		<ctl name="DSP5L Input 1 Volume" value="27" />
 		<ctl name="DSP5L Input 2 Volume" value="27" />
+        <ctl name="HPOUT3L Input 1 Volume" value="46" />
+		<ctl name="HPOUT3R Input 1 Volume" value="46" />	
 		<ctl name="AIF4TX1 Input 1 Volume" value="36" />
 		<ctl name="AIF4TX2 Input 1 Volume" value="36" />
 	</path>
@@ -3328,6 +3333,7 @@
 
 	<!-- NB volume -->
 	<path name="gain-incall_nb-handset">
+        <ctl name="HPOUT3 Digital Volume" value="128" />
 		<ctl name="HPOUT3L Input 1 Volume" value="32" />
 		<ctl name="HPOUT3R Input 1 Volume" value="32" />
 		<ctl name="HPOUT3L Input 2 Volume" value="32" />
@@ -3363,6 +3369,10 @@
 		<ctl name="HPOUT1R Input 1 Volume" value="32" />
 		<ctl name="HPOUT1L Input 2 Volume" value="32" />
 		<ctl name="HPOUT1R Input 2 Volume" value="32" />
+		<ctl name="LHPF3 Input 1 Volume" value="22" />
+		<ctl name="LHPF3 Input 2 Volume" value="22" />
+		<ctl name="HPOUT1L Input 3 Volume" value="0" />
+        <ctl name="HPOUT1R Input 3 Volume" value="0" />
 	</path>
 
 	<path name="gain-incall_nb-bt-sco-headset">
@@ -3462,6 +3472,7 @@
 
 	<!-- WB volume -->
 	<path name="gain-incall_wb-handset">
+        <ctl name="HPOUT3 Digital Volume" value="128" />
 		<ctl name="HPOUT3L Input 1 Volume" value="32" />
 		<ctl name="HPOUT3R Input 1 Volume" value="32" />
 		<ctl name="HPOUT3L Input 2 Volume" value="32" />
@@ -3497,6 +3508,10 @@
 		<ctl name="HPOUT1R Input 1 Volume" value="32" />
 		<ctl name="HPOUT1L Input 2 Volume" value="32" />
 		<ctl name="HPOUT1R Input 2 Volume" value="32" />
+		<ctl name="LHPF3 Input 1 Volume" value="22" />
+		<ctl name="LHPF3 Input 2 Volume" value="22" />
+		<ctl name="HPOUT1L Input 3 Volume" value="0" />
+		<ctl name="HPOUT1R Input 3 Volume" value="0" />
 	</path>
 
 	<path name="gain-incall_wb-bt-sco-headset">
